@@ -99,8 +99,7 @@ public class Main {
                 catch (JSONException je) {
 
                     System.out.println("Error processing response, unable to make a recommendation");
-                    return null;
-
+                    quit();
                 }
 
                 return null;
